@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title> formulario con bootstrap</title>
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+
+</head>
+<body class="text-center">
+    <main class="form-signin main">
+        <form id="form_1">
+            <img class="mb-4" src="./assets/img/descargar.png" width="72" height="57">
+            <h1 class="h3 mb-3 fw-normal">Ingrese sus datos</h1>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="nombre" placeholder="ingrese nombre">
+                <label for="nombre">nombre</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="apellido" placeholder="apellido">
+                <label for="apellido">apellido</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="mail" placeholder="Password">
+                <label for="mail">email</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="number" class="form-control" id="edad" placeholder="edad">
+                <label for="edad">edad</label>
+            </div>
+
+            <input class="w-50 btn btn-lg btn-primary" type="submit">
+            <!--aqui tengo la intencion de hacer que me mustre 
+            los datos que envie,un textarea estara perfecto--> 
+            <textarea id="respuesta" class="form-control"></textarea>
+        </form>
+    </main>
+    <script src="./assets/js/custom.js"></script>
+</body>
+
+</html>
